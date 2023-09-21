@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "au-syd": { "Endpoint": "au-syd.prod.surfshark.com:51820", "PublicKey": "..." },
+    "uk-lon": { "Endpoint": "uk-lon.prod.surfshark.com:51820", "PublicKey": "..." },
+    "us-nyc": { "Endpoint": "us-nyc.prod.surfshark.com:51820", "PublicKey": "..." },
+    "vn-hcm": { "Endpoint": "vn-hcm.prod.surfshark.com:51820", "PublicKey": "..." },
+    "empty": { "Endpoint": "", "PublicKey": "" }
+  }
+}
