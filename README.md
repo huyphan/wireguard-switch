@@ -1,6 +1,6 @@
 # wg-switch
 
-A simple utility command to switch between wireguard profiles.
+A simple CLI to switch between wireguard profiles.
 
 # Usage
 
@@ -16,7 +16,7 @@ Options:
   -h, --help  Print help
 ```
 
-`wg-switch` requires a configuration file and template file to work. Place the configuration file 
+`wg-switch` requires a configuration file and a template file to work. Place the configuration file 
 at `/etc/wg-switch/config.json`. Example of a configuration for SurfShark:
 
 ```
@@ -63,4 +63,4 @@ AllowedIPs = 0.0.0.0/0
 Endpoint = {Endpoint}
 ```
 
-Only two vairables are supported: `PublicKey` and `Endpoint`.
+For now, only two variables are supported: `PublicKey` and `Endpoint`.
